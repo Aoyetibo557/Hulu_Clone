@@ -45,7 +45,7 @@ function Header(props) {
                     <BsSearch className="icon" />
                     <p>Search</p>
                     
-                </div>43
+                </div>
 
                 <div className="header__icon">
                     <Link to="/login">

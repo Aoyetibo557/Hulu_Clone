@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live App
+
+You can check out the live version of this project [Here](https://hulu-clone-304e7.web.app/).
+
+## Description
+
+Build with reactJs and hosted on firebase. This web app utilizes firebase google authentication. It also makes api requests to the TMDB database for all the movie categories found in the app. The functioning tools on the app are the watchlist Link and the add icon shown on each card.
+
 ## Available Scripts
 
 In the project directory, you can run:
