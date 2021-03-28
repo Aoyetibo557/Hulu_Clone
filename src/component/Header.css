@@ -1,0 +1,94 @@
+
+/* Hide Scrollbar for Safari and opera */
+.header::-webkit-scrollbar{
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and firefox */
+.header{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* position: sticky;
+    top: 0;
+    z-index: 2;
+    background-image: linear-gradient(to right, #051421, #042727); */
+}
+.header__icons{
+    color: #fff;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.header__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+
+.header__icon > p{
+    display: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 3px;
+}
+
+
+.header__icon:hover > p{
+    display: inline;
+}
+.icon{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__image{
+   
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+
+}
+
+.header__icon--active > p{
+    display: inline-flex;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__Avatar{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.header__Avatar:hover{
+    opacity: 1;
+}

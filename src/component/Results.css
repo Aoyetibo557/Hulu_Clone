@@ -1,0 +1,16 @@
+
+.results > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1024px){
+    .results__container {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       width: 100%;
+    }
+}
+

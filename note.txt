@@ -1,0 +1,8 @@
+Tech - 
+-- React
+-- Material Ui or React Icons
+-- Flexbox
+-- TMDB - Api calls to movie service
+-- React animation -- react flip-move{the foward ref on the videocard componone is for the flipmove animation}
+-- Deploy on firebase 
+-- react-text-truncate

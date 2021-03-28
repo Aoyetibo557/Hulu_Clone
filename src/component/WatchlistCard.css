@@ -1,0 +1,78 @@
+.watchlistCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.watchlistCard > img{
+    width: 600px;
+    height: 400px;
+    object-fit: contain;
+    margin-right: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.watchlistCard__info{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    max-width: 800px;
+    margin-top: 20px;
+}  
+.watchlistCard__info > h3{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 15px;
+
+}
+
+
+.watchlistCard__overview{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 300;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+
+.watchlistCard__stats{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.watchlistCard__stats > span{
+    margin-right: 10px;
+    margin-left: 10px;
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+
+.watchlistCard__btn{
+    padding: 5px;
+    max-width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 12px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: .9px solid #fff;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: transform 100ms;
+    margin-right: 20px;
+}
+
+.watchlistCard__btn:hover{
+    transform: scale(1.09);
+    opacity: 1;
+}
